@@ -1,0 +1,13 @@
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #fefefe;;
+}
+
+.container-fluid {
+    background: rgb(152,221,255);
+    background: linear-gradient(55deg, rgba(152,221,255,1) 0%, rgba(99,200,255,1) 54%);
+  }
+
+.row {
+  height: 100vh;
+}
