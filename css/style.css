@@ -16,6 +16,7 @@ body {
 
 .logo-yn {
   margin-bottom: 10vh;
+  animation-delay: .3s;
 }
 
 .line {
@@ -64,4 +65,26 @@ input.transparent-input {
 
 .border-button-yn {
   border-bottom: #fff solid 4px;
+}
+
+/* animate */
+.presensi__animate {
+  /* animation-duration: 3s; */
+  animation-delay: .2s;
+}
+
+.user__animate{
+  animation-delay: .6s;
+}
+
+.pass__animate{
+  animation-delay: .5s;
+}
+
+.btn__animate{
+  animation-delay: .4s;
+}
+
+.sosmed__animate {
+  animation-delay: .7s;
 }
