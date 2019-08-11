@@ -1,14 +1,19 @@
 body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: #fefefe;;
+  color: #fefefe;
   letter-spacing: 2px;
 }
 
 .gradient-1 {
-  background: rgb(152,221,255);
-  background: linear-gradient(55deg, rgba(152,221,255,1) 0%, rgba(99,200,255,1) 54%);
+  background: rgb(203, 207, 209);
+  background: linear-gradient(55deg, rgba(152, 221, 255, 1) 0%, rgba(99, 200, 255, 1) 54%);
 }
-  
+
+.gradient-2 {
+  background: rgb(99, 200, 255);
+  background: linear-gradient(55deg, rgba(99, 200, 255, 1) 37%, rgba(152, 221, 255, 1) 99%);
+}
+
 .logo-yn {
   margin-bottom: 10vh;
 }
@@ -18,6 +23,7 @@ body {
   overflow: hidden;
   background-repeat: no-repeat;
   height: 100vh;
+  background-position: right;
 }
 
 input.transparent-input {
@@ -28,11 +34,11 @@ input.transparent-input {
   color: #fff !important;
 }
 
-.input-group-text-mod{
+.input-group-text-mod {
   display: flex;
   -ms-flex-align: center;
   align-items: center;
-  padding-left:  1em;
+  padding-left: 1em;
   padding-right: 1em;
   font-size: 1rem;
   font-weight: 400;
@@ -52,4 +58,10 @@ input.transparent-input {
   color: #63c8ff !important;
   font-size: 27px;
   letter-spacing: 3px;
+}
+
+/* pages 2 */
+
+.border-button-yn {
+  border-bottom: #fff solid 4px;
 }
