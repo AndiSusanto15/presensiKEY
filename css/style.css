@@ -23,7 +23,7 @@ body {
   animation-delay: .3s;
 }
 
-input.transparent-input {
+input.transparent__input {
   background-color: transparent !important;
   border: #fefefe solid 4px;
   border-top-right-radius: .5rem !important;
@@ -31,7 +31,7 @@ input.transparent-input {
   color: #fff !important;
 }
 
-.input-group-text-mod {
+.input-group-text__mod {
   display: flex;
   -ms-flex-align: center;
   align-items: center;
@@ -51,7 +51,7 @@ input.transparent-input {
   border-right: none;
 }
 
-.btn-yn {
+.btn__mod {
   color: #63c8ff !important;
   font-size: 27px;
   letter-spacing: 3px;
@@ -90,13 +90,20 @@ table {
   letter-spacing: normal
 }
 
+/*  */
+.my__center {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 /* only desktop */
 @media screen and (min-width: 900px) {
   .line {
     background-image: url(../assets/lines.png);
-    overflow: hidden;
+    /* overflow: hidden; */
     background-repeat: no-repeat;
     height: 100vh;
     background-position: right;
+    /* background-size: cover  */
   }
 }
