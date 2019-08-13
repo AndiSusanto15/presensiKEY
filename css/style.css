@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500i,600&display=swap');
+
 body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #fefefe;
@@ -7,24 +9,18 @@ body {
 .gradient-1 {
   background: rgb(203, 207, 209);
   background: linear-gradient(55deg, rgba(152, 221, 255, 1) 0%, rgba(99, 200, 255, 1) 54%);
+  height: 100vh;
 }
 
 .gradient-2 {
   background: rgb(99, 200, 255);
   background: linear-gradient(55deg, rgba(99, 200, 255, 1) 37%, rgba(152, 221, 255, 1) 99%);
+  height: 100vh;
 }
 
 .logo-yn {
   margin-bottom: 10vh;
   animation-delay: .3s;
-}
-
-.line {
-  background-image: url(../assets/lines.png);
-  overflow: hidden;
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-position: right;
 }
 
 input.transparent-input {
@@ -73,18 +69,34 @@ input.transparent-input {
   animation-delay: .2s;
 }
 
-.user__animate{
+.user__animate {
   animation-delay: .6s;
 }
 
-.pass__animate{
+.pass__animate {
   animation-delay: .5s;
 }
 
-.btn__animate{
+.btn__animate {
   animation-delay: .4s;
 }
 
 .sosmed__animate {
   animation-delay: .7s;
+}
+
+table {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: normal
+}
+
+/* only desktop */
+@media screen and (min-width: 900px) {
+  .line {
+    background-image: url(../assets/lines.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: right;
+  }
 }
