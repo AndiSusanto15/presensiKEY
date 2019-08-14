@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Presensi</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/animate.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css">
+</head>
+
+<body>
+  <div class="container-fluid gradient-2">
+    <!-- line -->
+    <div class="row position-relative">
+      <div class="col-5 position-absolute d-inline-block line animated fadeInRight">
+        <img src="./assets/logoBG.png" class="d-flex mx-auto w-75 mt-5 animated fadeInDown">
+        <img src="./assets/logo-bawah.png" style="position: absolute; bottom: 0" alt="">
+      </div>
+    </div>
+
+    <div class="row h-100 align-items-center">
+
+      <div class="col-5">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <h1>PRESENSI KELAS</h1>
+            <h1>EKSEKUTIF #YUK NGAJI</h1>
+
+            <form action="">
+              <div class="input-group mb-3 animated fadeInRight mt-5">
+                <div class="input-group-prepend">
+                  <label class="input-group-text" for="sesi-kelas">Nama Peserta</label>
+                </div>
+                <select class="custom-select" id="sesi-kelas">
+                  <option selected>---</option>
+                  <option value="1">Dimas</option>
+                  <option value="2">Bayu</option>
+                  <option value="3">Rangga</option>
+                  <option value="3">Yogi</option>
+                </select>
+              </div>
+
+              <div class="custom-control custom-switch h-50">
+                <input type="checkbox" class="custom-control-input" id="sudah-ho">
+                <label class="custom-control-label" for="sudah-ho">SUDAH HO?</label>
+              </div>
+
+              <button class="btn btn-light float-right" type="submit">CHECK IN ></button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-7">
+        <div class="row justify-content-center">
+          <div class="col-10 table-responsive-sm">
+            <table class="table table-bordered bg-light">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Peserta</th>
+                  <th>Sudah HO</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Belum</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Belum</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Larry the Bird</td>
+                  <td>Sudah</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Larry the Bird</td>
+                  <td>Sudah</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Larry the Bird</td>
+                  <td>Sudah</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <button class="btn btn-success float-right">SELESAI DAN SIMPAN</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.js"></script>
+
+</body>
+
+</html>
