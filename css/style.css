@@ -9,8 +9,8 @@ body {
 .gradient-1 {
   /* background: rgb(203, 207, 209);
   background: linear-gradient(55deg, rgba(152, 221, 255, 1) 0%, rgba(99, 200, 255, 1) 54%); */
-  background: rgb(140,215,255);
-  background: linear-gradient(90deg, rgba(140,215,255,1) 6%, rgba(99,200,255,1) 87%);
+  background: rgb(140, 215, 255);
+  background: linear-gradient(90deg, rgba(140, 215, 255, 1) 6%, rgba(99, 200, 255, 1) 87%);
   height: 100vh;
 }
 
@@ -90,6 +90,16 @@ input.transparent__input {
 table {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: normal
+}
+
+.my-custom-scrollbar {
+  position: relative;
+  height: 50vh;
+  overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+  display: block;
 }
 
 /*  */
